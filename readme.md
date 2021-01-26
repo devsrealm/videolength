@@ -1,4 +1,4 @@
-=== Plugin Name & Details ===
+=== # Quick Summary Plugin ===
 
 Plugin Name:       VideoLength Grabber
 Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.
@@ -19,7 +19,7 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
 
 A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor
 
-== Description ==
+== ### Description ==
 
 This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
 
