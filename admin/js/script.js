@@ -4,7 +4,6 @@ document.getElementById('videoInput').onchange  = function(){
     reader.onload = function() {
         const audio = new Audio(reader.result);
         audio.onloadedmetadata = function(){
-            // toFixed(2) rounds the number to keep only two decimals e.g .44
             let minutes = parseInt(audio.duration / 60, 10);
             let seconds = parseInt(audio.duration % 60);
 
