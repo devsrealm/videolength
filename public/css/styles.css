@@ -1,0 +1,19 @@
+/* Video Length Styles */
+
+.video-duration {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 4px;
+    color: white;
+    background: black;
+    padding: 20px 5px;
+    height: 12px;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
