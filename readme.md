@@ -1,21 +1,21 @@
 # Quick Summary Plugin
 
-**Plugin Name:       VideoLength Grabber**
-**Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.**
-**Plugin URI:        https://forums.classicpress.net/u/Horlaes**
-**Contributors:      Devsrealm**
-**Author:            Devsrealm**
-**Author URI:        https://github.com/devsrealm/**
-**Donate link:       https://devsrealm.com**
-**Tags:              videolength, quote field**
-Version:           1.0
-Stable tag:        1.0
-Requires at least: 3.5
-Tested up to:      4.9
-Text Domain:       videolength
-Domain Path:       /languages
-License:           GPL v2 or later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
+- Plugin Name:       VideoLength Grabber
+- Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.
+- Plugin URI:        https://forums.classicpress.net/u/Horlaes
+- Contributors:      Devsrealm
+- Author:            Devsrealm
+- Author URI:        https://github.com/devsrealm/
+- Donate link:       https://devsrealm.com
+- Tags:              videolength, quote field
+- Version:           1.0
+- Stable tag:        1.0
+- Requires at least: 3.5
+- Tested up to:      4.9
+- Text Domain:       videolength
+- Domain Path:       /languages
+- License:           GPL v2 or later
+- License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
 
 ## Installation
 1. Go to your Dashboard
