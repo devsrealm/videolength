@@ -1,7 +1,7 @@
 # Quick Summary Plugin
 
-Plugin Name:       VideoLength Grabber
-Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.
+*Plugin Name:       VideoLength Grabber
+*Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.
 Plugin URI:        https://forums.classicpress.net/u/Horlaes
 Contributors:      Devsrealm
 Author:            Devsrealm
