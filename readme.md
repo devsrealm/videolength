@@ -1,4 +1,4 @@
-# Quick Summary Plugin
+# VideoLength Grabber
 
 - Plugin Name:       VideoLength Grabber
 - Description:       A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor.
@@ -31,14 +31,21 @@ Requires at least Classicpress V1
 
 A ClassicPress plugin that grabs a video duration and inject it into a meta field in the post editor
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+### Usage
+Goto any template part you would like to display the value of duration, be it a content, below your post title, under featured image, etc;)
 
+and add this
 
-== Installation ==
+```
+  <div class="video-duration">
+          <?php
+          $video_duration   = get_post_meta( $post->ID, 'videolength_duration', true );
+          if ( is_singular( get_post_type() ) && '' !== $video_duration) {
+             ?> <span> <?php echo esc_html( $video_duration ); ?> </span> <?php
+            } 
+          else {
+            echo '';}
+          ?>
+   </div>
+```
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/plugin-name` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
